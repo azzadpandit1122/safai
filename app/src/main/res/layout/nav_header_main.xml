@@ -1,18 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/nav_header_height"
-    android:background="@drawable/bg2"
-    android:orientation="vertical">
+    android:layout_height="160dp"
+    android:background="@color/teal_200"
+    android:paddingTop="30dp">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginStart="10dp"
         android:scaleType="fitXY"
+        android:padding="5dp"
         android:src="@drawable/men"
-        app:shapeAppearanceOverlay="@style/circleImageView" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/circleImageView"
+        app:strokeColor="@color/color2"
+        app:strokeWidth="3dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/arimo"
+        android:text="@string/SumitMaurya"
+        android:textColor="@color/color2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arimo"
+        android:text="@string/Admin"
+        android:textColor="@color/color2"
+
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
