@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.safai.ui.Dashboard.HomeFragment"
+        android:label="@string/Dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/complaint_Fragment"
+        android:name="com.example.safai.Fregment.Complaint_Fragment"
+        android:label="@string/Complaint"
+        tools:layout="@layout/fragment_complaint_" />
+    <fragment
+        android:id="@+id/user_Charge_Collection_Fragment"
+        android:name="com.example.safai.Fregment.User_Charge_Collection_Fragment"
+        android:label="@string/UserChargeCollection"
+        tools:layout="@layout/fragment_scrolling" />
+    <fragment
+        android:id="@+id/KYC_Data_Fragment"
+        android:name="com.example.safai.Fregment.KYC_Data_Fragment"
+        android:label="@string/KYCData"
+        tools:layout="@layout/fragment_k_y_c__data_" />
+    <fragment
+        android:id="@+id/ledger_Fragment"
+        android:name="com.example.safai.Fregment.Ledger_Fragment"
+        android:label="@string/Ledger"
+        tools:layout="@layout/fragment_ledger_" />
+    <fragment
+        android:id="@+id/live_Vahical_Tracking_Fragment"
+        android:name="com.example.safai.Fregment.Live_Vahical_Tracking_Fragment"
+        android:label="@string/LiveVahicalTracking"
+        tools:layout="@layout/fragment_live__vahical__tracking_" />
+    <fragment
+        android:id="@+id/utilities_Fragment"
+        android:name="com.example.safai.Fregment.Utilities_Fragment"
+        android:label="@string/utilities"
+        tools:layout="@layout/fragment_utilities_" />
+    <fragment
+        android:id="@+id/master_Records_Fragment"
+        android:name="com.example.safai.Fregment.Master_Records_Fragment"
+        android:label="@string/master_Records_Fragment"
+        tools:layout="@layout/fragment_master__records_" />
+    <fragment
+        android:id="@+id/coming_Soon_Fragment"
+        android:name="com.example.safai.Fregment.Coming_Soon_Fragment"
+        android:label="@string/coming_Soon_Fragment"
+        tools:layout="@layout/fragment_coming__soon_" />
+    <fragment
+        android:id="@+id/MSW_Fragment"
+        android:name="com.example.safai.Fregment.MSW_Fragment"
+        android:label="@string/MSW"
+        tools:layout="@layout/fragment_m_s_w_" />
+    <fragment
+        android:id="@+id/fuel_Fragment"
+        android:name="com.example.safai.Fregment.Fuel_Fragment"
+        android:label="@string/fuel"
+        tools:layout="@layout/fragment_fuel_" />
+</navigation>

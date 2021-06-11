@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/dashbord"
+            android:title="@string/Dashboard" />
+        <item
+            android:id="@+id/complaint_Fragment"
+            android:icon="@drawable/ic_form"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/user_Charge_Collection_Fragment"
+            android:icon="@drawable/ic_collection"
+            android:title="User Charge Collection" />
+        <item
+            android:id="@+id/KYC_Data_Fragment"
+            android:icon="@drawable/kyc"
+            android:title="KYC Data" />
+        <item
+            android:id="@+id/ledger_Fragment"
+            android:icon="@drawable/ledger"
+            android:title="Ledger" />
+        <item
+            android:id="@+id/fuel_Fragment"
+            android:icon="@drawable/ic_fuel"
+            android:title="Fuel" />
+
+        <item
+            android:id="@+id/live_Vahical_Tracking_Fragment"
+            android:icon="@drawable/ic_live_tracking"
+            android:title="Live Vahical Tracking" />
+
+        <item
+            android:id="@+id/utilities_Fragment"
+            android:icon="@drawable/ic_utilites"
+            android:title="Utilities" />
+
+        <item
+            android:id="@+id/master_Records_Fragment"
+            android:icon="@drawable/ic_master_records"
+            android:title="Master Records" />
+
+
+        <item
+            android:id="@+id/MSW_Fragment"
+            android:title="MSW" />
+        <item
+            android:id="@+id/coming_Soon_Fragment"
+            android:title="Coming Soon" />
+
+
+    </group>
+</menu>
